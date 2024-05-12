@@ -1,0 +1,32 @@
+div{
+    width: 5%;
+    height: 50px;
+    border: 1px black solid;
+    background-color: #CFE1F3;
+    display: inline-block;
+    margin-right:5px;
+
+
+}
+.group{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    border: none;
+}
+
+.group1:not(.group1:nth-child(-n+5)){
+    background-color: orange;
+}
+.group2:not(.group2:nth-child(n+6)){
+    background-color: orange;
+}
+.group3:nth-child(4n+1){
+    background-color: orange;
+}
+.group4:nth-child(n+7){
+    background-color: orange;
+}
+.group5:nth-child(10){
+    background-color: orange;
+}
