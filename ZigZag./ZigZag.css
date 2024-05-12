@@ -1,0 +1,19 @@
+div:nth-child(even){
+    position: relative;
+    top: 40px;
+    background-color: green;
+    color: green;
+    
+}
+div:nth-child(odd){
+    background-color: yellow;
+}
+
+
+div{
+    margin-right: 5px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border:1px solid black;
+}
