@@ -1,0 +1,49 @@
+.parent{
+    position: absolute;
+    width:30%;
+    height: 40%;
+    
+}
+.group{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 40%;
+}
+.child{
+    position: relative;
+    width: 90%;
+    height: 25%;
+    background-color: green;
+    margin-bottom: 5px ;
+}
+.childBlue{
+    position: relative;
+    width: 90%;
+    height: 25%;
+    background-color: green;
+    margin-bottom: 5px ;
+}
+.child:nth-child(even){
+    background-color: blue;
+}
+.childBlue:nth-child(odd){
+    background-color: blue;
+}
+.child:nth-child(even)::before{
+    content: "x";
+}
+.child:nth-child(odd)::before{
+    content: ".";
+}
+
+.childBlue:nth-child(even)::before{
+content: ".";
+}
+
+.childBlue:nth-child(odd)::before{
+content: "x";
+}
+
+
+
